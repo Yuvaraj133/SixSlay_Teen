@@ -1,0 +1,498 @@
+
+ body{
+    font-family: Poppins;
+    color: #ffffff; 
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+.brand-name{
+color: #ffffff;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 50px;
+ z-index: 1;
+}
+.logo{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+h6{
+    color: #ffffff;
+    font-family: 'Sacramento', cursive;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 7px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    list-style: none;
+    
+}
+nav{
+    color: #000000;
+  
+   float: right;
+   margin-right: 50px;
+}
+.blob{
+   
+    position: absolute;
+
+
+}
+.blob1{
+   
+    position: absolute;
+    margin-left: 10px;
+    opacity: 50%;
+
+
+}
+.main-pic{
+    width: 45%;
+    height: 45%;
+}
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;   
+}
+
+.quote{
+    color: #000000;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 50px;
+font-style: normal;
+font-weight: 700;
+
+
+margin-top: 0;
+}
+.black{
+color: #000000;
+z-index: 1;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+}
+.quote-small{
+color: #ffffff;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.service{
+color: #000000;
+text-align: center;
+text-decoration: underline;
+}
+.entire-card{
+     width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+
+}
+.footer-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  color: #ffffff;
+  font-size: smaller;
+  font-weight: 100px;
+  font-style: normal;
+  gap:2px;
+
+}
+.footer-list li a{
+  color: white;
+}
+.footer-list li:not(:last-child)::after {
+  content: '|';
+}
+
+
+.card{
+   margin-right: 0;
+    width: 300px;
+    padding: 15px;;
+    height: 300px;
+    border-radius: 18px;
+    background: #FFFDFD;
+    color: #000000;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+}
+.heading{
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+}
+.card-img{
+    width: 50%;
+    height: 50%;
+   
+}
+.card-head{
+    margin: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.member-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.member{
+    margin: 10px;;
+}
+.member-name{
+    margin: 0;
+}
+.designation{
+    margin: 0;
+}
+.Team{
+    color:#000000;
+    text-align: center;
+    text-decoration: underline;
+}
+.entire-cardprofile{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: linear-gradient(180deg, #61C996 0%, #045A89 100%);
+    align-items: center;
+    text-align: center;
+
+}
+
+.cardproject{
+  text-align: center;
+
+    margin: 0;
+    width: 375px;
+    padding: 10px;;
+    height: 325px;
+    border-radius: 18px;
+    background: #FFFDFD;
+    color: #000000;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+    transition: height 0.3s ease; 
+
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-img{
+    
+    margin: 0;
+    width: 350px;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+    border-radius: 18px;
+   
+}
+.cardproject .link
+{
+    visibility: hidden;
+    font-size: larger; 
+}
+.cardproject:hover{
+   
+    height: 350px;
+}
+
+
+.cardproject:hover .link {
+    visibility: visible;
+    color: #045A89;
+
+  
+}
+
+.college-text{
+    color: #000000;
+    margin-top:70px;
+    padding: 0;
+    font-size: 1.1rem;
+   }
+         .college{
+           display: flex;
+           flex-direction: row;
+           gap:30px; 
+         }
+         .college-img{
+           right:0px;
+           margin-left: 30px;
+         }
+
+form{
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    width: 500px;
+    padding: 20px;;
+    height: 350px;
+    border-radius: 18px;
+    background: #FFFDFD;
+    color: #000000;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+}
+.contactcard{
+    padding: 20px;
+
+}
+footer{
+    background-color:#045A89 ;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+}
+.details{
+    align-items: center;
+    text-align: center;
+}
+.cursive{
+    font-family: 'Sacramento', cursive;
+
+}
+.border{
+    height: 20px;
+    width: 100%;
+    background-color: #61C996;
+}
+.social-links svg{
+    width: 32px;
+    height: 32px;
+    
+}
+
+
+.nav {
+   
+    float: right;
+    
+  
+  }
+  .nav > .nav-header {
+    flex: 0.95;
+    padding-left: 1rem;
+  }
+  .nav > .nav-header > .nav-title {
+    font-size: 22px;
+    color: #000000;
+  }
+  .nav > .nav-list {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav > .nav-list > li {
+    list-style-type: none;
+  }
+  .nav > .nav-list > li a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+  }
+  .nav > #nav-check {
+      display: none;
+  }
+  @media (max-width: 480px) {
+    .nav {
+     
+      z-index: 1;
+    
+      
+    }
+    .nav > .nav-btn {
+   
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-top: 0.1rem;
+    }
+    .nav > .nav-btn > label {
+     
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      height: 50px;
+      padding: 15px;
+      float: right;
+    
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      
+      height: 10px;
+      border-top: 2px solid black;
+    }
+    .nav > .nav-list {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+   
+      height: 0;
+      transition: all 0.3s ease-in;
+      top: 40px;
+      left: 0;
+      overflow: hidden;
+    }
+    .nav > .nav-list > li {
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+    .nav > #nav-check:checked ~ .nav-list{
+      height: calc(100vh - 50px);
+      color:black;
+      width: 100%;
+      background-color:rgb(255, 255, 255);
+      z-index: 100;
+    }
+    .nav > #nav-check:checked ~ .nav-btn{
+      width: 100%;
+      margin-top: 0;
+     
+    }
+    .nav > #nav-check:checked ~     .nav > .nav-btn > label > span {
+      float: right;
+     
+
+    }
+  }
+@media screen and (max-width: 767px) {
+  h1{
+    font-size: 30px;;
+  }
+    .main-body h1{
+        margin-left: 0px;
+    }
+    #together{
+        color: #000000;
+        z-index: 1;
+    margin-left:15px;;
+        font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+
+    }
+   .blob {
+     width: 100%;
+     height: 100%;
+     margin-top: -200px;;
+     margin-left: -20px;
+     
+
+    }
+    .blob1{
+        width: 90%;
+        height: 100%;
+        margin-top: -200px;;
+        margin-left: 14px;
+        opacity: 50%;
+    
+    
+    }
+    .main-pic{
+        z-index: 1;
+        width: 80%;
+    }
+    
+    .quote{
+        color: #000000;
+        z-index: 1;
+        color: #ffffff;
+        font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+   margin-left: 40px;;
+    }
+    .black{
+        color: #000000;
+        z-index: 1;
+    
+        font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+
+    
+    
+    
+    }
+    .college-text{
+        margin: 15px;
+        padding: 0;
+        text-align: justify;
+        
+       
+       }
+             .college{
+               display: flex;
+               flex-direction: column;
+               gap:30px;
+               
+              
+               
+             }
+             .college-img{
+               right:0px;
+               margin-left: 0px;;
+             }
+             footer{
+                background-color:#045A89 ;
+               display: flex;
+               flex-direction: row;
+               flex-wrap: wrap;
+              justify-content:center;
+            }
+            
+.details{
+    text-align: center;
+    font-size: small;
+    font-style: normal;
+}
+
+  }
